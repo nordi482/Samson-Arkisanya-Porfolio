@@ -1,6 +1,10 @@
+
 html, body{
     box-sizing: border-box;
     font-family: poppins;
+    background-color: black;
+    color: #ffffff;
+    margin: auto;
 }
 
 default-margin{
@@ -8,6 +12,239 @@ default-margin{
     margin-right: 50px;
 }
 
-.first-container{
-    background-color: bisque;
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    gap: 70px;
+    display: flex;
+}
+
+// hero section
+
+.hero-section{
+    padding-top: 70px;
+    
+}
+
+.web-block{
+    font-size: 60px;
+    margin: 70px;
+    color: #ffffff;
+}
+
+.web-word{
+    color: #648DE5;
+}
+
+.web-words{
+    color: #928A97;
+}
+
+.web-word-two{
+    color: #648DE5;
+}
+
+.social-media{
+    margin: 70px;
+}
+.s-media{
+    margin-left: 10px;
+}
+
+.second-container{
+    font-size: 32px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+// .second-cont{
+//     background-color: #171717;
+// }
+
+// about me
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.texts{
+    color: #ffffff;
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.images{
+    width: 650px;
+    padding-top: 50px;
+}
+
+.text-area{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.experience{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #171717;
+    margin-top: 50px;
+}
+
+.text{
+    text-align: center; 
+    font-size: 28px;
+    color: grey;
+}
+
+// projects
+
+
+.project-A{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+
+.role-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-date{
+    color: #928A97;
+}
+
+.project-role{
+    color: #648DE5;
+}
+
+.view-more{
+    color: #648DE5;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.button{
+    padding-bottom: 80px;
+    margin: 70px;
+    justify-content: space-between;
+}
+
+ .btn-filled{
+     padding: 10px 14px 10px 14px;
+     border-radius: 10px;
+     width: 150px;
+     border: #ffffff;
+ }
+
+ .btn-stroke{
+     padding: 10px 14px 10px 14px;
+     border-radius: 10px;
+     width: 120px;
+     border: 2px solid white;
+     margin-left: 20px;
+     background-color: black;
+     color: #ffffff;
+ }
+
+
+// footer
+
+
+ .footer{
+     display: flex;
+     justify-content: space-between;
+     margin-right: 70px;
+     margin-left: 70px;
+     padding-top: 60px;
+     padding-bottom: 50px;
+ }
+
+ .footer-text-area{
+     color: #928A97;
+     padding-top: 0%;
+     font-size: 18px;
+
+ }
+
+ .connect{
+     color: #928A97;
+     font-size: 18px;
+     padding-top: 35px;
+ }
+
+ .number{
+     font-size: 18px;
+ }
+
+ .email{
+     font-size: 18px;
+ }
+
+ .footer-logo{
+     margin-left: 10px;
+ }
+
+ .input-container input{
+     width: 600px;
+     height: 30px;
+     border: none;
+     background-color: #F6F9FF;
+     border-radius: 7px;
+     font-size: 12px;
+     padding: 10px;
+     color: #625F5F;
+     margin-top: 15px;
+ }
+
+ .input-container-one input{
+    width: 600px;
+    height: 100px;
+    border: none;
+    background-color: #F6F9FF;
+    border-radius: 7px;
+    font-size: 12px;
+    // padding: 10px;
+    color: #625F5F;
+    margin-top: 15px;
+    padding-top: 0px;
+ }
+
+ .Message {
+     padding-top: 0%;
+
+ }
